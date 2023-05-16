@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello World</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
+<head>
+    <title>Productivity Enhancement with GPT-4</title>
+</head>
+<body>
+    <form action="/submit_form" method="POST">
+        <h1>Productivity Enhancement with GPT-4</h1>
+        <label for="request_type">Choose your request:</label>
+        <select id="request_type" name="request_type">
+            <option value="goal_setting">SMART Goal Setting</option>
+            <option value="task_organization">Task Organization</option>
+            <option value="content_creation">Content Creation</option>
+            <option value="language_learning">Language Learning</option>
+            <option value="time_management">Time Management</option>
+            <option value="research_assistance">Research Assistance</option>
+            <option value="meeting_preparation">Meeting Preparation</option>
+            <option value="email_drafting">Email Drafting</option>
+            <option value="learning_new_skills">Learning New Skills</option>
+            <option value="brainstorming">Brainstorming</option>
+            <option value="habit_tracking">Habit Tracking</option>
+            <option value="project_planning">Project Planning</option>
+            <option value="study_assistance">Study Assistance</option>
+            <option value="business_strategy">Business Strategy Development</option>
+            <option value="mental_health_management">Mental Health Management</option>
+            <option value="recipe_suggestion">Recipe Suggestion</option>
+            <option value="fitness_planning">Fitness Planning</option>
+            <option value="coding_help">Coding Help</option>
+            <option value="book_recommendations">Book Recommendations</option>
+            <option value="creative_writing">Creative Writing Assistance</option>
+        </select>
+        <label for="details">Please provide more details:</label>
+        <textarea id="details" name="details" rows="4" cols="50"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
 </html>
